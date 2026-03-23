@@ -1,10 +1,10 @@
 # AWS Multi-Tenant SaaS Platform Using Terraform
 
-## Project overview
-This project is about building a multi-tenant Saas platform using AWS and Terraform.
-The goal is to understand how real-world cloud infrastructure is designed, not just create resources.
+## Project Overview
+This project is about building a multi-tenant SaaS platform using AWS and Terraform.
+The goal is to understand how real-world cloud infrastructure is designed, not just creating resources.
 
-## What is multi-tenants?
+## What is Multi-Tenants?
 Multi-tenant architecture allows multiple customers(tenants) to use the same application while keeping their data isolated.
 
 Example:
@@ -14,20 +14,20 @@ Example:
 ## Architecture Components
 - AWS VPC (Networking)
 - AWS ECS Fargate (Application Hosting)
-- Application Load Balancer(Traffic Routing)
+- AWS Application Load Balancer(Traffic Routing)
 - AWS RDS PostgreSQL (Database)
 - AWS Route53 (DNS)
-- AWS Secrets manager (Secure Credentials)
+- AWS Secrets Manager (Secure Credentials)
 
 ## Architecture Flow
-1.user Accesses the application using a domain
-2.Route53 resolves s domain in ALB
-3.ALB receives requestes
-4.ECS Process requests
-5.Application connects to database
-6.Data stored per tenant schema
+1. User Accesses the application using a domain
+2. Route53 resolves the domain to ALB
+3. ALB receives the requestes
+4. ECS Process the requests
+5. Application connects to the database
+6. Data is stored per tenant schema
 
-## Project goal
+## Project Goal
 
 - Learn Terraform from beginner level
 - Understand AWS services
@@ -49,7 +49,7 @@ Example:
     └── README.md 
 
 
-## Technologies used
+## Technologies Used
 
 - Terraform
 - AWS ECS Fargate 
@@ -61,7 +61,7 @@ Example:
 
 - CI/CD pipeline
 - WAF integrations
-- Auto scaling
+- Auto Scaling
 
 
 
