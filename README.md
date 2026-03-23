@@ -40,21 +40,21 @@ Example:
 
 ## Project Structure
 
-```text
-.
-├── environments/
-│   └── dev/
-├── modules/
-├── tenant-config/
-├── docs/
-└── README.md
+    .
+    ├── environments/
+    │   └── dev/
+    ├── modules/
+    ├── tenant-config/
+    ├── docs/
+    └── README.md 
+
 
 ## Technologies used
 
 - Terraform
 - AWS ECS Fargate 
-- AWS RDS postgreSQL
-- AWS Application Loan Balancer 
+- AWS RDS PostgreSQL
+- AWS Application Load Balancer 
 - AWS Route53
 
 ## Future Improvements
