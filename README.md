@@ -36,7 +36,7 @@ Example:
 
 
 ## Architecture Diagram
-(To be added)
+![Architecture](docs/architecture.png)
 
 ## Project Structure
 
